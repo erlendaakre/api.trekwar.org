@@ -27,7 +27,6 @@ class UserRegistrationService {
                     to user.email
                     from "trekwaronline@gmail.com"
                     subject "Trekwar Online account registration"
-                  //  body 'test service'
                     html "<h2>Account Registration</h2>" +
                             "<br/>Thank you for registering for a Trekwar Online account" +
                             "<br/>before you can log in and use your account you have to click the link below to verify your email address" +
@@ -53,6 +52,7 @@ class UserRegistrationService {
         def verification = UserVerification.findByCode(code)
         if(verification != null) {
             verification.user.emailVerifiedDate = new Date()
+            println("======== Set email verified date for " + verification.user.firstname)
             verification.delete()
             return true
         }

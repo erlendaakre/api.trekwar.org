@@ -20,7 +20,7 @@
 <g:else>
     <h1>Account validated</h1>
     <br/>
-    Your account was verified, you may now <g:link controller="UserPortal" action="login">Log in</g:link>
+    Your account was verified, you may now <g:link controller="user" action="index">Log in</g:link>
 </g:else>
 </div>
 </body>

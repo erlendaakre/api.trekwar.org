@@ -62,18 +62,19 @@
       <file leaf-file-name="UserRegistrationService.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/UserRegistrationService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="32" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#46#79#0" expanded="true" />
-              </folding>
+            <state line="49" column="56" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SMTPTransport.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.grails/ivy-cache/javax.mail/mail/jars/mail-1.4.3.jar!/com/sun/mail/smtp/SMTPTransport.class">
+      <file leaf-file-name="User.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/User.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="0" selection-start="10386" selection-end="10386" vertical-scroll-proportion="-16.4">
+            <state line="10" column="26" selection-start="197" selection-end="214" vertical-scroll-proportion="-3.9534883">
               <folding />
             </state>
           </provider>
@@ -88,22 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserVerification.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/UserVerification.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="validateUser.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="175" selection-end="175" vertical-scroll-proportion="-3.9534883">
+            <state line="22" column="82" selection-start="629" selection-end="629" vertical-scroll-proportion="0.62674654">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationController.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/org.aakretech.trekwar2.trekwaronline/RegistrationController.groovy">
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="52" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.8064516">
+            <state line="14" column="123" selection-start="397" selection-end="397" vertical-scroll-proportion="-4.857143">
               <folding />
             </state>
           </provider>
@@ -119,19 +117,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/domain/trekwaronline/org/aakretech/trekwar2/trekwaronline/org.aakretech.trekwar2.trekwaronline.User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/UserVerification.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/AuthorizationService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/AuthorizationCode.groovy" />
         <option value="$PROJECT_DIR$/../../DefaLinkPortal/grails-app/views/registration/RegisterPrivateCustomer.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/registration/registerOK.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/registration/registerUser.gsp" />
         <option value="$PROJECT_DIR$/../../DefaLinkPortal/grails-app/services/com/defa/grails/defalinkportal/services/CustomerRegistrationService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/UserRegistrationService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/org.aakretech.trekwar2.trekwaronline/RegistrationController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/PasswordReset.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/org/aakretech/trekwar2/trekwaronline/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/login.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/org.aakretech.trekwar2.trekwaronline/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/User.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/UserRegistrationService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/registration/registerOK.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp" />
       </list>
     </option>
   </component>
@@ -155,7 +156,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -166,90 +167,38 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrekwarOnline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrekwarOnline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrekwarOnline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrekwarOnline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrekwarOnline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrekwarOnline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrekwarOnline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/grails-app/domain/trekwaronline/org/aakretech/trekwar2/trekwaronline" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/grails-app/controllers/org.aakretech.trekwar2.trekwaronline" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.aakretech.trekwar2.trekwaronline" />
       <recent name="trekwaronline.org.aakretech.trekwar2.trekwaronline" />
     </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:TrekwarOnline">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -258,17 +207,6 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="true" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -285,24 +223,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -332,6 +252,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -418,7 +356,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="5" width="1795" height="1017" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -431,7 +369,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27887982" sideWeight="0.99936223" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26112074" sideWeight="0.67094517" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26112074" sideWeight="0.67094517" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -440,7 +378,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24898903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -503,85 +441,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/AuthorizationCode.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="52" selection-end="52" vertical-scroll-proportion="0.06451613">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DefaLinkPortal/grails-app/views/registration/RegisterPrivateCustomer.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="26" selection-start="3403" selection-end="3422" vertical-scroll-proportion="0.56751466">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="40" selection-start="2536" selection-end="2568" vertical-scroll-proportion="0.77954143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../DefaLinkPortal/grails-app/controllers/com/defa/grails/defalinkportal/RegistrationController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="5" selection-start="4277" selection-end="4277" vertical-scroll-proportion="0.14655173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/User.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="517" selection-end="517" vertical-scroll-proportion="0.6451613">
-          <folding />
-        </state>
+        <state line="88" column="5" selection-start="4277" selection-end="4277" vertical-scroll-proportion="0.14655173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../DefaLinkPortal/grails-app/services/com/defa/grails/defalinkportal/services/PasswordService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="66" selection-start="461" selection-end="461" vertical-scroll-proportion="0.41154563">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/registerOK.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.6786427">
-          <folding />
-        </state>
+        <state line="17" column="66" selection-start="461" selection-end="461" vertical-scroll-proportion="0.41154563" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../DefaLinkPortal/grails-app/services/com/defa/grails/defalinkportal/services/CustomerRegistrationService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="95" selection-start="5431" selection-end="5431" vertical-scroll-proportion="0.93668526">
-          <folding />
-        </state>
+        <state line="119" column="95" selection-start="5431" selection-end="5431" vertical-scroll-proportion="0.93668526" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/registerUser.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="97" selection-start="934" selection-end="934" vertical-scroll-proportion="0.13572854">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/PasswordReset.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="75" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5928144">
+        <state line="11" column="15" selection-start="173" selection-end="173" vertical-scroll-proportion="0.23700887">
           <folding />
         </state>
       </provider>
@@ -591,14 +471,28 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="175" selection-end="175" vertical-scroll-proportion="-3.9534883">
+        <state line="10" column="16" selection-start="175" selection-end="175" vertical-scroll-proportion="0.32258064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/registerUser.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="88" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.31736526">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/login.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="381" selection-end="381" vertical-scroll-proportion="0.28742516">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.grails/ivy-cache/javax.mail/mail/jars/mail-1.4.3.jar!/com/sun/mail/smtp/SMTPTransport.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="0" selection-start="10386" selection-end="10386" vertical-scroll-proportion="-16.4">
+        <state line="210" column="0" selection-start="10387" selection-end="10387" vertical-scroll-proportion="0.80078125">
           <folding />
         </state>
       </provider>
@@ -610,18 +504,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/UserRegistrationService.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="32" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#46#79#0" expanded="true" />
-          </folding>
+        <state line="10" column="26" selection-start="197" selection-end="214" vertical-scroll-proportion="-3.9534883">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/org.aakretech.trekwar2.trekwaronline/RegistrationController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="52" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.8064516">
+        <state line="14" column="123" selection-start="397" selection-end="397" vertical-scroll-proportion="-4.857143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/UserRegistrationService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="56" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/registerOK.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="170" selection-end="170" vertical-scroll-proportion="0.23752496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="82" selection-start="629" selection-end="629" vertical-scroll-proportion="0.62674654">
           <folding />
         </state>
       </provider>
