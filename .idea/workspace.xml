@@ -89,10 +89,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validateUser.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="validateUser.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="82" selection-start="629" selection-end="629" vertical-scroll-proportion="0.62674654">
+            <state line="22" column="82" selection-start="629" selection-end="629" vertical-scroll-proportion="-6.408163">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="149" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.592955">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="30" selection-start="2094" selection-end="2094" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/AuthorizationService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/AuthorizationCode.groovy" />
         <option value="$PROJECT_DIR$/../../DefaLinkPortal/grails-app/views/registration/RegisterPrivateCustomer.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/registration/registerUser.gsp" />
         <option value="$PROJECT_DIR$/../../DefaLinkPortal/grails-app/services/com/defa/grails/defalinkportal/services/CustomerRegistrationService.groovy" />
@@ -133,6 +149,8 @@
         <option value="$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/UserRegistrationService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/registration/registerOK.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp" />
+        <option value="$PROJECT_DIR$/web-app/css/main.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
       </list>
     </option>
   </component>
@@ -356,7 +374,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="5" width="1795" height="1017" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -369,7 +387,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27887982" sideWeight="0.99936223" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26112074" sideWeight="0.67094517" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26112074" sideWeight="0.67094517" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -514,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="123" selection-start="397" selection-end="397" vertical-scroll-proportion="-4.857143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/UserRegistrationService.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="56" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0">
@@ -537,7 +548,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="82" selection-start="629" selection-end="629" vertical-scroll-proportion="0.62674654">
+        <state line="22" column="82" selection-start="629" selection-end="629" vertical-scroll-proportion="-6.408163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="30" selection-start="2094" selection-end="2094" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="123" selection-start="397" selection-end="397" vertical-scroll-proportion="-4.857143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="149" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.592955">
           <folding />
         </state>
       </provider>
