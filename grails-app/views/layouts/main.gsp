@@ -1,27 +1,47 @@
 <!doctype html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><g:layoutTitle default="Grails"/></title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
-		<link rel="apple-touch-icon" href="${resource(dir: 'images', file: 'apple-touch-icon.png')}">
-		<link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 'apple-touch-icon-retina.png')}">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
-		<g:layoutHead/>
-		<r:layoutResources />
-	</head>
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title><g:layoutTitle default="Trekwar.org"/></title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Trekwar, star trek turn based strategy game">
+    <meta name="author" content="Aakre technologies">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+    <style>
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    </style>
+
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/dark.css" id="darkLightCSSLink"/>
+
+    <script src="/js/libs/jquery-1.7.2.min.js"></script>
+    <script src="/js/script.js"></script>
+
+    <g:layoutHead/>
+    <r:layoutResources />
+
+</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://www.trekwar.org"><img src="http://www.trekwar.org/images/img02.jpg" alt="Trekwar Online"/><img src="http://www.trekwar.org/images/img04.jpg" alt="Trekwar Online"/></a></div>
+    <g:render template="/navbarTemplate"/>
+        <div class="container">
 		<g:layoutBody/>
-		<div class="footer" role="contentinfo"></div>
-		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
+
+        <hr>
+        <footer>
+            <p>Trekwar &copy; Aakre technologies</p>
+            <p>Star Trek© Star Trek: The Next Generation© Star Trek: Deep Space Nine©Star Trek: Voyager© Star Trek Enterprise© and all associated marks and characters are registered trademarks of CBS/Paramount Television. All rights reserved. The Trekwar use of the "Star Trek" universe is a non-profit fan production and is not meant to be an infringement on CBS/Paramount Television property rights to "Star Trek."</p>
+        </footer>
+        </div>
+
 		<g:javascript library="application"/>
 		<r:layoutResources />
 	</body>

@@ -1,0 +1,18 @@
+
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+
+.odd {
+    background-color: #1d1d1d;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #999;
+    background-color: #070707;
+}
