@@ -25,7 +25,7 @@ class UserController {
 
     def logout() {
         session.user = null
-        flash.message = "You have been logged out of TrekwarOnline"
+        flash.message = "You have been logged out of Trekwar Online"
         render(view: "login")
     }
 

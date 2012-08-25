@@ -1,10 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
-<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta name="layout" content="main"/>
-  <title></title>
 </head>
 <body>
+
+
+<g:render template="/navbarTemplate" model="[nav_home: 'active']"/>
+
+<div class="container">
 
 <div class="row">
 
@@ -17,7 +20,7 @@
     </g:if>
     </div>
 
-    </div>
+</div>
 
 
 </body>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html">
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title><g:layoutTitle default="Trekwar.org"/></title>
 
@@ -31,8 +31,7 @@
 
 </head>
 	<body>
-    <g:render template="/navbarTemplate"/>
-        <div class="container">
+
 		<g:layoutBody/>
 
         <hr>

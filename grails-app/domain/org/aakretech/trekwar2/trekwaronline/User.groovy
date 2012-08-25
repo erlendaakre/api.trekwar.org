@@ -17,5 +17,8 @@ class User {
         password(size:  5..1024, blank: false)
         accountRegistrationDate(nullable: true)
         emailVerifiedDate(nullable: true)
+        firstname(nullable:  true)
+        lastname(nullable: true)
+        country(nullable: true)
     }
 }

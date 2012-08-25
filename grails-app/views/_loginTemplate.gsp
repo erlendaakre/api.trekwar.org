@@ -6,7 +6,7 @@
         <g:field type="password" name="password" id="password" required="true" placeholder="Password" class="span3"/>
         <br/>
         <g:actionSubmit value="Sign in" controller="user" action="login" class="btn" style="float: right;"/>
-        <p><a href="#">Forgot password</a></p>
+        <p><g:link controller="registration" action="passwordReset">Forgot password</g:link></p>
         <p><g:link controller="registration" action="index">Register new account</g:link></p>
     </g:form>
 </div>

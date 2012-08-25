@@ -22,6 +22,10 @@ class RegistrationController {
         }
     }
 
+    def passwordReset() {
+        render "implement me!"
+    }
+
     def doRegister() {
         def newUser = new User(params)
 

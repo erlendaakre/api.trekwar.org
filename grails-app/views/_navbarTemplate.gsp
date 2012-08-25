@@ -7,16 +7,17 @@
                 <span class="icon-bar"></span>
             </a>
             <a class="brand" href="#">Trekwar.org</a>
+
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Development</a></li>
-                    <li><a href="screenshots.html">Screenshots</a></li>
-                    <li><a href="#about">Download</a></li>
-                    <li><a href="#contact">Support</a></li>
-                    <li><a href="#contact">Wiki</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#contact">Trekwar Online</a></li>
+                    <li class="${nav_home}"><a href="/">Home</a></li>
+                    <li class="${nav_development}"><a href="#">Development</a></li>
+                    <li class="${nav_screenshots}"><a href="#">Screenshots</a></li>
+                    <li class="${nav_download}"><a href="#about">Download</a></li>
+                    <li class="${nav_support}"><a href="#contact">Support</a></li>
+                    <li class="${nav_wiki}"><a href="#contact">Wiki</a></li>
+                    <li class="${nav_contact}"><a href="#contact">Contact</a></li>
+                    <li class="${nav_online}"><a href="#contact">Trekwar Online</a></li>
                 </ul>
 
                 <ul  class="nav" style="float: right; padding-top: 8px">

@@ -2,10 +2,12 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-  <title></title>
 </head>
 <body>
-<div id="page-body" role="main">
+
+<g:render template="/navbarTemplate" model="[nav_home: 'active']"/>
+
+<div class="container">
     <h1>TrekwarOnline</h1>
     Welcome ${session.user.firstname}
     <br/>
@@ -18,6 +20,6 @@
     <br/>
     <br/>
     <g:link action="logout">Log out</g:link>
-</div>
+
 </body>
 </html>
