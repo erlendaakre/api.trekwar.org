@@ -10,14 +10,14 @@
 
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li class="${nav_home}"><a href="/">Home</a></li>
-                    <li class="${nav_development}"><a href="#">Development</a></li>
-                    <li class="${nav_screenshots}"><a href="#">Screenshots</a></li>
-                    <li class="${nav_download}"><a href="#about">Download</a></li>
-                    <li class="${nav_support}"><a href="#contact">Support</a></li>
-                    <li class="${nav_wiki}"><a href="#contact">Wiki</a></li>
-                    <li class="${nav_contact}"><a href="#contact">Contact</a></li>
-                    <li class="${nav_online}"><a href="#contact">Trekwar Online</a></li>
+                    <li class="${nav_home}"><g:link url="/">Home</g:link></li>
+                    <li class="${nav_development}"><g:link url="development">Development</g:link></li>
+                    <li class="${nav_screenshots}"><g:link url="screenshots">Screenshots</g:link></li>
+                    <li class="${nav_download}"><g:link url="download">Download</g:link></li>
+                    <li class="${nav_support}"><a href="#">Support</a></li>
+                    <li class="${nav_wiki}"><a href="#">Wiki</a></li>
+                    <li class="${nav_contact}"><g:link url="contact">Contact</g:link></li>
+                    <li class="${nav_online}"><a href="#">Trekwar Online</a></li>
                 </ul>
 
                 <ul  class="nav" style="float: right; padding-top: 8px">

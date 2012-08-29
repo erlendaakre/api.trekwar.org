@@ -8,6 +8,11 @@ class UrlMappings {
 		}
 
 		"/"(view:"/index")
-		"500"(view:'/error')
+        "/development"(view:"/development")
+        "/screenshots"(view:"/screenshots")
+        "/download"(view:"/download")
+        "/contact"(view:"/contact")
+		"500"(view:"/error")
+        "404"(view:"/404")
 	}
 }
