@@ -11,6 +11,8 @@ class UrlMappings {
         "/development"(view:"/development")
         "/screenshots"(view:"/screenshots")
         "/download"(view:"/download")
+        "/support"(view:"/support")
+        "/faq"(view: "/faq")
         "/contact"(view:"/contact")
 		"500"(view:"/error")
         "404"(view:"/404")

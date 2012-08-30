@@ -34,7 +34,7 @@
 
 		<g:layoutBody/>
 
-        <hr>
+        <hr class="footer_hr">
         <footer>
             <p>Trekwar &copy; Aakre technologies</p>
             <p>Star Trek© Star Trek: The Next Generation© Star Trek: Deep Space Nine©Star Trek: Voyager© Star Trek Enterprise© and all associated marks and characters are registered trademarks of CBS/Paramount Television. All rights reserved. The Trekwar use of the "Star Trek" universe is a non-profit fan production and is not meant to be an infringement on CBS/Paramount Television property rights to "Star Trek."</p>

@@ -14,7 +14,7 @@
                     <li class="${nav_development}"><g:link url="development">Development</g:link></li>
                     <li class="${nav_screenshots}"><g:link url="screenshots">Screenshots</g:link></li>
                     <li class="${nav_download}"><g:link url="download">Download</g:link></li>
-                    <li class="${nav_support}"><a href="#">Support</a></li>
+                    <li class="${nav_support}"><g:link url="support">Support</g:link></li>
                     <li class="${nav_wiki}"><a href="#">Wiki</a></li>
                     <li class="${nav_contact}"><g:link url="contact">Contact</g:link></li>
                     <li class="${nav_online}"><a href="#">Trekwar Online</a></li>

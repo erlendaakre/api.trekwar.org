@@ -574,7 +574,7 @@ dd {
   margin-left: 130px;
 }
 
-hr {
+.footer_hr {
   margin: 18px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
@@ -4929,7 +4929,7 @@ a.badge:hover {
   color: #ffffff;
 }
 
-.hero-unit {
+.hero-unit-index {
   padding-top: 120px;
   padding-left: 10px;
   padding-right: 10px;
@@ -4943,6 +4943,33 @@ a.badge:hover {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
+}
+
+.hero-unit {
+    padding: 60px;
+    margin-bottom: 30px;
+    background-color: #eeeeee;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.bug_div {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #470e14;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.bug_div_fixed {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #09470f;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .hero-unit p {
