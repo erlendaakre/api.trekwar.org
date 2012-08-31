@@ -7,6 +7,8 @@ class UrlMappings {
 			}
 		}
 
+        "/devblog/view/$post"(controller: "devblog", action: "view", post: $post)
+
 		"/"(view:"/index")
         "/development"(view:"/development")
         "/screenshots"(view:"/screenshots")

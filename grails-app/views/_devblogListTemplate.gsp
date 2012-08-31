@@ -17,7 +17,7 @@
         <p><a  href="/Wiki.jsp?page=Devblog-12022009">February 12 2009</a>&nbsp;&nbsp;Deuterium resource added to the game</p>
         <p><a  href="/Wiki.jsp?page=Devblog-28012009">January 28 2009</a>&nbsp;&nbsp;New client GUI and shipdesigner details</p>
         <p><a  href="/Wiki.jsp?page=Devblog-08102008">October 08 2008</a>&nbsp;&nbsp;Announcing the shipdesign feature</p>
-        <p><a  href="/Wiki.jsp?page=Devblog-15062008">June 15 2008</a>&nbsp;&nbsp;movement of ships, system control, asteroids</p>
-        <p><a  href="/Wiki.jsp?page=Devblog-18052008">May 18 2008</a>&nbsp;&nbsp;Bugfixes, order system, ship moved for the first time</p>
-        <p><a  href="/Wiki.jsp?page=Devblog-06012008">January 06 2008</a>&nbsp;&nbsp;turn system and research completed</p>
+        <p><g:link controller="devblog" action="view" params="[post: '15062008']">15.06.2008</g:link>&nbsp;&nbsp;movement of ships, system control, asteroids</p>
+        <p><g:link controller="devblog" action="view" params="[post: '18052008']">18.05.2008</g:link>&nbsp;&nbsp;Bugfixes, order system, ship moved for the first time</p>
+        <p><g:link controller="devblog" action="view" params="[post: '06012008']">06.01.2008</g:link>&nbsp;&nbsp;turn system and research completed</p>
 </div>
