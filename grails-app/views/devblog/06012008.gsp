@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<g:render template="/navbarTemplate" model="[nav_download: 'active']"/>
+<g:render template="/navbarTemplate" model="[nav_development: 'active']"/>
 
 <div class="container">
 

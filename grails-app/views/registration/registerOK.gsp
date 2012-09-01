@@ -1,14 +1,22 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
+<!doctype html>
 <html>
 <head>
     <meta name="layout" content="main"/>
-  <title></title>
 </head>
 <body>
-<div id="page-body" role="main">
-    <h1>Registration successful</h1>
-    <br/>
-    An email will be sent to ${email} with a confirmation link, you may log in after your email address has been verified
-</div>
+
+<g:render template="/navbarTemplate" model="[nav_download: 'active']"/>
+
+<div class="container">
+
+    <div class="row">
+        <div class="span8">
+            <h2>Registration successful</h2>
+            <br/>
+            An email will be sent to ${email} with a confirmation link, you may log in after your email address has been verified
+        </div>
+
+    </div>
+
 </body>
 </html>

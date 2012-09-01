@@ -4930,6 +4930,7 @@ a.badge:hover {
 }
 
 .hero-unit-index {
+  color: red;
   padding-top: 120px;
   padding-left: 10px;
   padding-right: 10px;
@@ -4977,6 +4978,13 @@ a.badge:hover {
   font-weight: 200;
   line-height: 27px;
   color: black;
+}
+
+.hero-unit-index p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 27px;
+    color: black;
 }
 
 .pull-right {

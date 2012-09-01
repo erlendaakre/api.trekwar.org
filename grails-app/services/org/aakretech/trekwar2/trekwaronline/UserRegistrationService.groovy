@@ -28,12 +28,12 @@ class UserRegistrationService {
                     from "trekwaronline@gmail.com"
                     subject "Trekwar Online account registration"
                     html "<h2>Account Registration</h2>" +
-                            "<br/>Thank you for registering for a Trekwar Online account" +
+                            "Thank you for registering for a Trekwar Online account " + user.username +
                             "<br/>before you can log in and use your account you have to click the link below to verify your email address" +
-                            "<br/></br>" +
+                            "<br/><br/>" +
                             "<b>Code: </b> " + verification.code +
                             "<br/><br/>" +
-                            "<a href=\"http://www.trekwar.org/TrekwarOnline/registration/validate?code=" + verification.code + "\">Click here to verify account</a>"
+                            "<a href=\"http://www.trekwar.org/registration/validate?code=" + verification.code + "\">Click here to verify account</a>"
                 }
 
                 println("User verification code made: " + verification.code)

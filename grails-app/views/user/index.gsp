@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<g:render template="/navbarTemplate" model="[nav_home: 'active']"/>
+<g:render template="/navbarTemplate" model="[nav_online: 'active']"/>
 
 <div class="container">
     <h1>TrekwarOnline</h1>

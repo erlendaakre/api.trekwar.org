@@ -112,7 +112,7 @@
                 A: No, sadly LCARS is not a very practical user interface and the BOTF interface looked terrible to be honest :) It would also take lots of time to make custom interfaces for all 5 factions, time which could instead be spent on making the game better
             </p>
             <p><b>Q: Will the game have sounds and music?</b><br />
-                A: Yes, the game will have sound effects, and a beautiful soundtrack made by <a class="external" href="http://www.alienhand.dk/">AlienHand</a>
+                A: Yes, the game will have sound effects, and a beautiful soundtrack made by <a href="http://www.alienhand.dk/">AlienHand</a>
             </p>
             <p><b>Q: Can anyone run a server?</b><br />
                 A: Yes, you can download a server and run it on any computer, either for a few number of friends or a larger public server. I'm currently looking into the details of having public servers register with a central game server and/or having a single Trekwar.org user that you can use to play on ANY public running server.

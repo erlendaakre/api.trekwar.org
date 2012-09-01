@@ -73,62 +73,7 @@
     <favorites_list name="TrekwarOnline" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_devstatusTemplate.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/_devstatusTemplate.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="80" selection-start="473" selection-end="473" vertical-scroll-proportion="-0.65384614">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="support.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/support.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="38" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-19.923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faq.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/faq.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="12" selection-start="10892" selection-end="10892" vertical-scroll-proportion="-20.576923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_devblogListTemplate.gsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/_devblogListTemplate.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="95" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.46401986">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="15062008.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/devblog/15062008.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="-4.5102043">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/aakretech/trekwar2/trekwaronline/RegistrationController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="109" selection-end="109" vertical-scroll-proportion="-2.9565217">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -138,22 +83,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/_bugListTemplate.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/devblog/10042012.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/devblog/02082012.gsp" />
         <option value="$PROJECT_DIR$/web-app/css/bootstrap.css" />
-        <option value="C:/test.html" />
-        <option value="$PROJECT_DIR$/src/java/ToodledooBugList.java" />
-        <option value="$PROJECT_DIR$/grails-app/views/support.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/faq.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/_devstatusTemplate.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/org/aakretech/trekwar2/trekwaronline/DevblogController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/_navbarTemplate.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/registration/passwordReset.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/registration/registerOK.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/registration/registerUser.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/login.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/UserRegistrationService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/devblog/06012008.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/download.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/devblog/18052008.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/devblog/15062008.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/_devblogListTemplate.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/gameguide.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
       </list>
     </option>
   </component>
@@ -162,6 +107,25 @@
     <option name="y" value="7" />
     <option name="width" value="1795" />
     <option name="height" value="1017" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -195,6 +159,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="RESOURCE_BUNDLE_SPLITTER_PROPORTION" value="0.5" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -401,7 +366,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="7" width="1795" height="1017" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -414,7 +379,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27887982" sideWeight="0.99936223" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25908828" sideWeight="0.7211202" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25908828" sideWeight="0.798133" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -424,7 +389,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24870168" sideWeight="0.798133" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20186698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20186698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -491,110 +456,126 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-app/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_navbarTemplate.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4971" column="33" selection-start="100099" selection-end="100099" vertical-scroll-proportion="0.75386995" />
+        <state line="19" column="43" selection-start="1145" selection-end="1155" vertical-scroll-proportion="0.51026857">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/_bugListTemplate.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/passwordReset.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ToodledooBugList.java">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/registerOK.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="123" selection-start="347" selection-end="347" vertical-scroll-proportion="0.077389985" />
+        <state line="21" column="42" selection-start="471" selection-end="471" vertical-scroll-proportion="0.5852459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/registerUser.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="236" selection-end="236" vertical-scroll-proportion="-0.028475711">
+          <folding>
+            <marker date="1345937739127" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/registration/validateUser.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="118" selection-start="917" selection-end="917" vertical-scroll-proportion="0.69344264">
+          <folding>
+            <marker date="1346498639502" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+        <state line="14" column="119" selection-start="589" selection-end="589" vertical-scroll-proportion="0.38387096">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/_devstatusTemplate.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/org/aakretech/trekwar2/trekwaronline/UserRegistrationService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="80" selection-start="473" selection-end="473" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/faq.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="12" selection-start="10892" selection-end="10892" vertical-scroll-proportion="-20.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/support.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="38" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-19.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/aakretech/trekwar2/trekwaronline/DevblogController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="283" selection-end="283" vertical-scroll-proportion="0.25855514">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="130" selection-end="130" vertical-scroll-proportion="0.16748768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/_navbarTemplate.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="88" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.6327543">
+        <state line="25" column="64" selection-start="829" selection-end="829" vertical-scroll-proportion="0.38694993">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/aakretech/trekwar2/trekwaronline/RegistrationController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="109" selection-end="109" vertical-scroll-proportion="-2.9565217">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/devblog/06012008.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="77" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.44155845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/devblog/18052008.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="82" selection-start="85" selection-end="85" vertical-scroll-proportion="0.11038961">
+        <state line="40" column="61" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.49213836">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/download.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="65" selection-start="0" selection-end="614" vertical-scroll-proportion="0.6327543">
+        <state line="19" column="69" selection-start="0" selection-end="614" vertical-scroll-proportion="-12.423077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/devblog/15062008.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="-4.5102043">
+        <state line="19" column="53" selection-start="524" selection-end="524" vertical-scroll-proportion="0.49013656">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/_devblogListTemplate.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/RecaptchaConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="95" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.46401986">
+        <state line="10" column="73" selection-start="248" selection-end="248" vertical-scroll-proportion="0.2579666">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/gameguide.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="29" selection-start="380" selection-end="380" vertical-scroll-proportion="0.61769354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/login.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="485" selection-end="485" vertical-scroll-proportion="0.66885245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="52" selection-start="280" selection-end="280" vertical-scroll-proportion="0.3065574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/org/aakretech/trekwar2/trekwaronline/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="57" selection-start="224" selection-end="247" vertical-scroll-proportion="0.30357143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="62" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.3348983">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
   </component>

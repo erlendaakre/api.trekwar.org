@@ -14,6 +14,7 @@ class UrlMappings {
         "/screenshots"(view:"/screenshots")
         "/download"(view:"/download")
         "/support"(view:"/support")
+        "/gameguide"(view:"/gameguide")
         "/faq"(view: "/faq")
         "/contact"(view:"/contact")
 		"500"(view:"/error")

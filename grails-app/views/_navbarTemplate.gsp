@@ -17,7 +17,7 @@
                     <li class="${nav_support}"><g:link url="/support">Support</g:link></li>
                     <li class="${nav_wiki}"><a href="#">Wiki</a></li>
                     <li class="${nav_contact}"><g:link url="/contact">Contact</g:link></li>
-                    <li class="${nav_online}"><a href="#">Trekwar Online</a></li>
+                    <li class="${nav_online}"><g:link controller="user" action="index">Trekwar Online</g:link></li>
                 </ul>
 
                 <ul  class="nav" style="float: right; padding-top: 8px">
