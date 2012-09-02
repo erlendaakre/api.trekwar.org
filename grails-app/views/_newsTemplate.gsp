@@ -1,17 +1,32 @@
 <div class="span5">
     <h2>Latest news</h2>
-    <table border="1" class="newsTable"><tr class="odd"><td>02.08.2012</td><td>new <a class="wikipage" href="/Wiki.jsp?page=Devblog-02082012">devblog entry</a>, TrekwarOnline introduction</td></tr>
-        <tr><td>30.05.2012</td><td>new <a class="wikipage" href="/Wiki.jsp?page=Devblog-10042012">devblog entry</a>, Project update + UI changes (0.4.5)</td></tr>
-        <tr class="odd"><td>05.06.2011</td><td><a class="wikipage" href="/Wiki.jsp?page=Bugs">Bug List</a> will now be updated automatically every hour</td></tr>
-        <tr><td>30.05.2011</td><td>new <a class="wikipage" href="/Wiki.jsp?page=Devblog-30052011">devblog entry</a>, Pre-alpha getting close, some UI work done</td></tr>
-        <tr class="odd"><td>09.04.2011</td><td>new <a class="wikipage" href="/Wiki.jsp?page=Devblog-09042011">devblog entry</a>, New System box</td></tr>
-        <tr><td>03.10.2010</td><td>new <a class="wikipage" href="/Wiki.jsp?page=Devblog-03102010">devblog entry</a>, Sensor system and fog of war</td></tr>
-        <tr class="odd"><td>07.03.2010</td><td>new <a class="wikipage" href="/Wiki.jsp?page=Devblog-07032010">devblog entry</a>, cargo system implemented</td></tr>
-        <tr><td>18.02.2010</td><td>New <a class="wikipage" href="/Wiki.jsp?page=Devblog-18022010">devblog entry</a>, preview of the sensor system</td></tr>
-        <tr class="odd"><td>13.02.2010</td><td>Site redesigned, everything moved into the Wiki</td></tr>
-        <tr><td>16.12.2009</td><td>New <a class="wikipage" href="/Wiki.jsp?page=Devblog-16122009">devblog entry</a>, Project status update</td></tr>
-        <tr class="odd"><td>01.11.2009</td><td>New <a class="wikipage" href="/Wiki.jsp?page=Devblog-01112009">devblog entry</a>, Fleetbox redesigned</td></tr>
-        <tr><td>29.10.2009</td><td>New <a class="wikipage" href="/Wiki.jsp?page=Devblog-22102009">devblog entry</a>, Colonization implemented</td></tr>
-        <tr class="odd"><td>15.10.2009</td><td>New <a class="wikipage" href="/Wiki.jsp?page=Screenshots">Screenshots</a> added</td></tr>
+    <table border="1" cellpadding="3">
+        <tr valign="top">
+            <td>02.09.2012</td><td>New website is up. However the <b style="color: red">registration is NOT open yet</b> and the wiki is not integrated into the new site yet</td>
+        </tr>
+        <tr class="odd" valign="top">
+            <td>02.08.2012</td><td>new <g:link controller="devblog" params="[post:'02082012']">devblog entry</g:link>, TrekwarOnline introduction</td>
+        </tr>
+        <tr valign="top">
+            <td>30.05.2012</td><td>new <g:link controller="devblog" params="[post:'10042012']">devblog entry</g:link>, Project update + UI changes (0.4.5)</td>
+        </tr>
+        <tr class="odd" valign="top">
+            <td>05.06.2011</td><td><g:link url="/support">Bug List</g:link> will now be updated automatically every hour</td>
+        </tr>
+        <tr valign="top">
+            <td>30.05.2011</td><td>new <g:link controller="devblog" params="[post:'30052011']">devblog entry</g:link>, Pre-alpha getting close, some UI work done</td>
+        </tr>
+        <tr class="odd" valign="top">
+            <td>09.04.2011</td><td>new <g:link controller="devblog" params="[post:'09042011']">devblog entry</g:link>, New System box</td>
+        </tr>
+        <tr valign="top">
+            <td>03.10.2010</td><td>new <g:link controller="devblog" params="[post:'03102010']"> devblog entry</g:link>, Sensor system and fog of war</td>
+        </tr>
+        <tr class="odd" valign="top">
+            <td>07.03.2010</td><td>new <g:link controller="devblog" params="[post:'07032010']">devblog entry</g:link>, cargo system implemented</td>
+        </tr>
+        <tr valign="top">
+            <td>18.02.2010</td><td>New <g:link controller="devblog" params="[post:'18022010']">devblog entry</g:link>, preview of the sensor system</td>
+        </tr>
     </table>
 </div>
