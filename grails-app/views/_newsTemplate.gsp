@@ -1,8 +1,11 @@
 <div class="span5">
     <h2>Latest news</h2>
     <table border="1" cellpadding="3">
+        <tr class="odd" valign="top">
+            <td>15.09.2012</td><td>Added <g:link url="/screenshots">screenshots</g:link> from the alpha version (0.4.5) of the game</td>
+        </tr>
         <tr valign="top">
-            <td>02.09.2012</td><td>New website is up. However the <b style="color: red">registration is NOT open yet</b> and the wiki is not integrated into the new site yet</td>
+            <td>02.09.2012</td><td>New website is up. However the wiki has not been integrated into the new site yet</td>
         </tr>
         <tr class="odd" valign="top">
             <td>02.08.2012</td><td>new <g:link controller="devblog" params="[post:'02082012']">devblog entry</g:link>, TrekwarOnline introduction</td>

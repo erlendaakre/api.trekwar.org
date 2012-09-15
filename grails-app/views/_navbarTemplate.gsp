@@ -20,11 +20,12 @@
                     <li class="${nav_online}"><g:link controller="user" action="index">Trekwar Online</g:link></li>
                 </ul>
 
+                <%--
                 <ul  class="nav" style="float: right; padding-top: 8px">
                     <li>
                         <input type="button" value="go light" id="lightDarkToggle"/>
                     </li>
-                </ul>
+                </ul>   --%>
             </div><!--/.nav-collapse -->
         </div>
     </div>

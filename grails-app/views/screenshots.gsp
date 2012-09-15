@@ -11,8 +11,43 @@
 
     <h3>0.4.x Screenshots</h3>
     <div class="row">
-        <div class="span4">
-    coming soon
+        <div class="span2">
+            <g:link url="images/screenshots/04X_map.jpg"><img src="images/screenshots/04X_map_thumb.jpg"/></g:link>
+        </div>
+
+        <div class="span2">
+            <g:link url="images/screenshots/04X_system.jpg"><img src="images/screenshots/04X_system_thumb.jpg"/></g:link>
+        </div>
+
+        <div class="span2">
+            <g:link url="images/screenshots/04X_shipdesigner.jpg"><img src="images/screenshots/04X_shipdesigner_thumb.jpg"/></g:link>
+        </div>
+
+        <div class="span2">
+            <g:link url="images/screenshots/04X_hullinfo.jpg"><img src="images/screenshots/04X_hullinfo_thumb.jpg"/></g:link>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+        <div class="span2">
+            <g:link url="images/screenshots/04X_attack1.jpg"><img src="images/screenshots/04X_attack1_thumb.jpg"/></g:link>
+        </div>
+
+        <div class="span2">
+            <g:link url="images/screenshots/04X_attack2.jpg"><img src="images/screenshots/04X_attack2_thumb.jpg"/></g:link>
+        </div>
+
+        <div class="span2">
+            <g:link url="images/screenshots/04X_attack3.jpg"><img src="images/screenshots/04X_attack3_thumb.jpg"/></g:link>
+        </div>
+
+        <div class="span2">
+            <g:link url="images/screenshots/04X_attack4.jpg"><img src="images/screenshots/04X_attack4_thumb.jpg"/></g:link>
+        </div>
+
+        <div class="span2">
+            <g:link url="images/screenshots/04X_attack5.jpg"><img src="images/screenshots/04X_attack5_thumb.jpg"/></g:link>
         </div>
     </div>
 

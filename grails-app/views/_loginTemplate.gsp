@@ -9,4 +9,6 @@
         <p><g:link controller="registration" action="passwordReset">Forgot password</g:link></p>
         <p><g:link controller="registration" action="index">Register new account</g:link></p>
     </g:form>
+
+    <b style="color: red">NOTE: registration is NOT open yet, if you make an account it will be deleted in the near future</b>
 </div>
