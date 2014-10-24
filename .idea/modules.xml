@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TrekwarOnline.iml" filepath="$PROJECT_DIR$/TrekwarOnline.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TrekwarOnline-grailsPlugins.iml" filepath="$PROJECT_DIR$/TrekwarOnline-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trekwarOnline.iml" filepath="$PROJECT_DIR$/trekwarOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trekwarOnline-grailsPlugins.iml" filepath="$PROJECT_DIR$/trekwarOnline-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

@@ -28,12 +28,14 @@
 
         <div class="span3">
             <h2>Community</h2>
-            <p>Drop by the  <b><g:link url="http://www.botf2.star-trek-games.com/viewforum.php?f=33">Forum</g:link></b>, hosted by the kind people over at  at <g:link url="http://www.star-trek-games.com/">Star Trek Fan Games</g:link></p>
+
+            <p>Unfortunately the website that hosted the forum (star-trek-games.com) has ceased to be, so all the forum posts relating to the game has disappeared.</p>
+            <p>A new forum or community system might take it's place later on.</p>
         </div>
 
         <div class="span3">
             <h2>Bug Report</h2>
-            <p>Bug report system under development, meanwhile just <g:link url="contact">e-mail me</g:link>. <b>But remember</b> to check out the list of open bugs (below) first</p>
+            <p>If you come across any bugs while testing the game please <g:link url="contact">e-mail me</g:link>. <b>But remember</b> to check out the list of open bugs (below) first</p>
         </div>
 
         <g:render template="/bugListTemplate"></g:render>

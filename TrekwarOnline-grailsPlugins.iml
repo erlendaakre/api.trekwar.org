@@ -4,10 +4,10 @@
     <facet type="web" name="GrailsWeb">
       <configuration>
         <webroots>
-          <root url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/jquery-1.7.2/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/database-migration-1.1/grails-app/views" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/mail-1.0/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/mail-1.0/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/jquery-1.7.2/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/mail-1.0/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/mail-1.0/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/database-migration-1.1/grails-app/views" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -15,61 +15,71 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map />
+        <naming-strategy-map />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/cache-1.0.0">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/cache-1.0.0/src/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/cache-1.0.0/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/cache-1.0.0/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/cache-1.0.0/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/cache-1.0.0">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/cache-1.0.0/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/cache-1.0.0/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/cache-1.0.0/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/cache-1.0.0/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/database-migration-1.1">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/database-migration-1.1/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/database-migration-1.1/grails-app/controllers" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/database-migration-1.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/database-migration-1.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/database-migration-1.1/grails-app/controllers" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/hibernate-2.1.0">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/hibernate-2.1.0/grails-app/i18n" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/hibernate-2.2.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/hibernate-2.2.1/grails-app/i18n" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/jquery-1.7.2">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/jquery-1.7.2/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/jquery-1.7.2/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/jquery-1.7.2/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/jquery-1.7.2/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/jquery-1.7.2">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/jquery-1.7.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/jquery-1.7.2/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/jquery-1.7.2/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/jquery-1.7.2/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/mail-1.0">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/mail-1.0/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/mail-1.0/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/mail-1.0/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/mail-1.0/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/mail-1.0">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/mail-1.0/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/mail-1.0/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/mail-1.0/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/mail-1.0/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/recaptcha-0.5.2">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/recaptcha-0.5.2/grails-app/utils" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/recaptcha-0.5.2/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/recaptcha-0.5.2/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/recaptcha-0.5.2/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/recaptcha-0.5.2">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/recaptcha-0.5.2/grails-app/utils" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/recaptcha-0.5.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/recaptcha-0.5.2/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/recaptcha-0.5.2/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/resources-1.1.6">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/resources-1.1.6/src/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/resources-1.1.6/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/resources-1.1.6/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/resources-1.1.6/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/resources-1.1.6">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/resources-1.1.6/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/resources-1.1.6/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/resources-1.1.6/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/resources-1.1.6/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/tomcat-2.1.0" />
-    <content url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/webxml-1.4.1">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.0/projects/TrekwarOnline/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/tomcat-2.2.1" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/webxml-1.4.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/TrekwarOnline/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-2.1.0" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.2.1" level="application" />
     <orderEntry type="module-library" exported="">
-      <library name="Grails User Library (TrekwarOnline-grailsPlugins)">
+      <library name="Grails User Library (trekwarOnline-grailsPlugins)">
         <CLASSES>
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.liquibase/liquibase-core/jars/liquibase-core-2.0.5.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.mail/mail/jars/mail-1.4.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/hibernate/zips/hibernate-2.2.1.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/webxml/zips/webxml-1.4.1.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/cache/zips/cache-1.0.0.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework/spring-test/jars/spring-test-3.1.0.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.activation/activation/jars/activation-1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.mail/mail/jars/mail-1.4.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/mail/zips/mail-1.0.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/recaptcha/zips/recaptcha-0.5.2.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/database-migration/zips/database-migration-1.1.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/resources/zips/resources-1.1.6.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/jquery/zips/jquery-1.7.2.zip!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails.plugins/tomcat/zips/tomcat-2.2.1.zip!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

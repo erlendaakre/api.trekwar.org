@@ -15,7 +15,7 @@
                 <h2>Trekwar Development</h2>
 
                 <p>
-                    The development of Trekwar is currently being done by me (Klogd / Erlend) single handed, I'm going to keep it this way trough the alpha testing and to beta so that I can focus on the design and architecture, and then if any talented Java programmers want to help out when the initial version is up and running, that would be appreciated :)
+                    The development of Trekwar is currently being done by me (Erlend) single handed, I'm going to keep it this way trough the alpha testing and to beta so that I can focus on the design and architecture, and then if any talented Java programmers want to help out when the initial version is up and running, that would be appreciated :)
                 </p>
                 <p>
                     From the alpha/beta and onwards There will also be a need for graphics artists to replace much of the horrible graphics I've been able to make myself or steal from <g:link url="http://www.memory-alpha.org/">Memory alpha</g:link> :)
@@ -23,18 +23,9 @@
 
                 <br/><br/>
 
-                <h3>Roadmap</h3>
+                <h3>Next Release</h3>
                 <p>
-                    For a full and detailed list of what tasks remain check out the <g:link url="http://www.toodledo.com/views/public.php?s=9;h=0;f=0;id=td4ca2f960d2cd4">Trekwar todo list</g:link>
-                </p>
-                <p>
-                    Tasks are grouped by Context, and each context is a release (for example: 0.4.5)
-                </p>
-                <p>
-                    NOTE: Release 9.9.9 is the backlog and has items not scheduled yet, and crazy ideas that will probably never make it to the actual game
-                </p>
-                <p>
-                    Currently all of my focus is on getting the alpha and then beta versions of the game ready
+                    The next release will be the 0.4.6 release which will include some bugfixes and improvements from the alpha test, but mostly focus on TrekwarOnline which is a separate project that provides all the online services (user registration, authentication, server listings, etc..) for the game.
                 </p>
 
             </div>
@@ -53,9 +44,7 @@
                 </li><li>IntelliJ from <a href="http://www.jetbrains.com/">JetBrains</a> is used for developing and maintaining TrekWarOnline, and a license was generously donated to the project by JetBrains
                 </li><li>Netbeans is used for developing the server and client
                 </li><li>VisualVM is used to optimize memory efficiency and find bugs
-                </li><li>SVN is used to hold the project code
-                </li><li>Toodledo is used to manage the project tasks
-                </li><li>JSPWiki is used for the Trekwar wiki
+                </li><li><a href="https://github.com/erlendaakre/">Github</a> is used to manage the project source code and issue tracking
                 </li></ul>
             </div>
         </div>

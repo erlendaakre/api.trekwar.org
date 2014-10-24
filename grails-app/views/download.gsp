@@ -20,7 +20,8 @@
             Not available yet<br/><br/>
 
             <h4>Source Code</h4>
-            Not available yet<br/><br/>
+            <a href="https://github.com/erlendaakre/trekwarOnline">TrekwarOnline</a>: The website and web services<br/>
+            <a href="#">Client/Server</a>: Source not available yet<br/><br/>
 
             <!-- <p><a class="btn btn-primary btn-large">Download 0.4.5</a></p> -->
 
