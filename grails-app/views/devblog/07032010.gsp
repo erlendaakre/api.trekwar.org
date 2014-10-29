@@ -21,19 +21,19 @@
             <h4>CargoTransferWindow taking form</h4>
             <br/>
             <p>Initial design on paper:</p>
-            <img src="/images/devblog/making_gui_1.jpg" />
+            <asset:image src="/devblog/making_gui_1.jpg" />
             <br/><br/>
             
             <p>UI element made in photoshop, with mock data:</p>
-            <img src="/images/devblog/making_gui_2.png" />
+            <asset:image src="/devblog/making_gui_2.png" />
             <br/><br/>
         
             <p>Setting up the GUI component</p>
-            <img src="/images/devblog/making_gui_3.jpg" />
+            <asset:image src="/devblog/making_gui_3.jpg" />
             <br/><br/>
         
             <p>Fully working drag&drop window, ready for the user testing</p>
-            <img src="/images/devblog/making_gui_4.jpg" />
+            <asset:image src="/devblog/making_gui_4.jpg" />
             <br/>
 
         </div>

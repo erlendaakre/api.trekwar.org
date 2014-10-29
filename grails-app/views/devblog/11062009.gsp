@@ -17,31 +17,31 @@
             <p>Here are the results from the latest 5 polls:</p>
 
             <h4>Native language</h4>
-            <img src="/images/devblog/poll1.png" />
+            <asset:image src="/devblog/poll1.png" />
             <br/>
             <p>It will be very easy to make a new translation and it can be used by just restarting the client.</p>
             <br/>
 
             <h4>Factions</h4>
-            <img src="/images/devblog/poll2.png" />
+            <asset:image src="/devblog/poll2.png" />
             <br/>
             <p>Wow, you people really like the Federation, so I guess Federation + Klingon will be the highest priority (for the alpha and beta testing)</p>
             <br/>
 
             <h4>Features</h4>
-            <img src="/images/devblog/poll3.png" />
+            <asset:image src="/devblog/poll3.png" />
             <br/>
             <p>Hopefully I will get to add lots of features, and it appears that Starbases and wormholes will be at the top of the list :)</p>
             <br/>
 
             <h4>Starsystem management</h4>
-            <img src="/images/devblog/poll4.png" />
+            <asset:image src="/devblog/poll4.png" />
             <br/>
             <p>This was a hard one, the easiest would be to not manage buildings (just build them), but now I've added the option for you to disable some buildings if you need the power or workers for something else</p>
             <br/>
 
             <h4>Out of energy in starsystems</h4>
-            <img src="/images/devblog/poll5.png" />
+            <asset:image src="/devblog/poll5.png" />
             <br/>
             <p>Latest poll, so not many replies yet.. but it seems you guys want the "standard" option for this, so if you don't have the power, your factories, research and special structures will be put offline.</p>
             <br/>

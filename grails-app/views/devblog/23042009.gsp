@@ -24,10 +24,10 @@
             <p>I also started on a major undertaking, fixing the way star systems, planets and structures work</p>
             <p>Now each system will have X number of planets, and each planet has a little map where you can build structures</p>
             <p>The interface is almost done, just need to implement a way to show buildings in the queue and under construction on the map</p>
-            <p></object><a href="/images/devblog/trekwar_systemcontrol_new.png"><img src="/images/devblog/trekwar_systemcontrol_new_thumb.png" /></a></p>
+            <p> <g:link url="${assetPath(src: '/devblog/trekwar_systemcontrol_new.png')}"><asset:image src="/devblog/trekwar_systemcontrol_new_thumb.png" /></g:link></p>
             <br/>
             <p>Also a big thank you for everyone who participated in the Minimap poll, the results where clear and the minimap will respect the fog of war for users/factions</p>
-            <img src="/images/devblog/trekwar_minimap.png" />
+            <asset:image src="/devblog/trekwar_minimap.png" />
 
         </div>
 

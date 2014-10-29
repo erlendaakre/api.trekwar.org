@@ -20,7 +20,7 @@
             <p>In it's current form however Trekwar Online is simply an authentication service, this means that you just need one single account to be able to play on many different servers (Kinda like Minecraft or the Battlefield games).</p>
             <p>This system will be ready a bit after Alpha 2, and release 0.4.6 will will focus entirely on Trekwar Online</p>
             <p>Below you can see a more detailed description of how the authentication will work:</p>
-            <img src="https://www.lucidchart.com/publicSegments/view/501a51b0-5744-4264-b51d-33e70a5a8150/image.png" />
+            <div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="https://www.lucidchart.com/documents/embeddedchart/4bb90500-501a-389b-8879-4db20a5a8150"></iframe><a href="https://www.lucidchart.com/pages/examples/mind_mapping_software" style="margin: 0; padding: 0; border: none; display: inline-block; position: absolute; bottom: 5px; left: 5px;"><img alt="mind mapping software"title="Lucidchart online diagrams"style="width: 100px; height: 30px; margin: 0; padding: 0; border-image: none; border: none; display: block"src="https://www.lucidchart.com/img/diagrams-lucidchart.png"/></a></div>
 
             <br />
             <br />

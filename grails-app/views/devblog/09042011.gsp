@@ -14,23 +14,20 @@
 
             <h3>April 09 2011</h3>
             <p>Unfortunately I haven't had much time lately to work on the game, but progress is being made and I'm confident the alpha release will be ready by summer.</p>
-            <p>As always the list of tasks remaining is updated whenever I do something, and there's currently 25.5 hours left until Alpha testing can start:
-                <a href="http://www.toodledo.com/views/public.php?s=9;h=0;f=0;id=td4ca2f960d2cd4">Trekwar todo list</a>
-            </p>
 
             <h4>Starsystem box</h4>
             <p>The starsystem box has been redesigned</p>
             <table cellpadding="10">
                 <tr valign="top">
-                    <td>Before:<br/><img src="/images/devblog/systembox_before.jpg" /><br></td>
-                    <td>After:<br/><img src="/images/devblog/systembox_after.jpg" /></td>
+                    <td>Before:<br/><asset:image src="/devblog/systembox_before.jpg" /><br></td>
+                    <td>After:<br/><asset:image src="/devblog/systembox_after.jpg" /></td>
                 </tr>
             </table>
             <p>Note: build times are very low because i'm using a overpowered factory for testing</p>
             <br/>
 
             <h4>Screenshot</h4>
-            <a href="/images/devblog/trekwar_0_3_8.jpg"><img src="/images/devblog/trekwar_0_3_8_thumb.jpg"/></a>
+<g:link url="${assetPath(src: 'devblog/trekwar_0_3_8.jpg')}"><asset:image src="/devblog/trekwar_0_3_8_thumb.jpg"/></g:link>
             <br/><br/>
 
             <h4>Misc</h4>

@@ -15,7 +15,7 @@
             <p>I spent most of the pentecost working on the game.. I fixed some major problems with the server/client serialization, and learned the hard way that ObjectOutputStream.writeUnshared() only writes the root object unshared, but still caches all objects contained in the ROOT.</p>
             <p>I fixed a few bugs in the research view and I now belive research is truly 100% done :) I swapped out almost all of the icons (thank you KDE), and added a icon in the upper right corner of the screen that displays tick number, and time to next turn. The icon rotates like crazy when downloading data from server.</p>
             <p>I implemented the Order system and pretty much completed the MoveOrder, so now I can actually see a federation fleet making it's way across the map</p>
-            <p><a href="/images/devblog/trekwar_ship_move.jpg"><img src="/images/devblog/trekwar_ship_move_thumb.jpg" /></a></p>
+            <p><g:link url="${assetPath(src: '/devblog/trekwar_ship_move.jpg')}"><asset:image src="/devblog/trekwar_ship_move_thumb.jpg" /></g:link></p>
 
             <p>the client also displays the path of the fleet as yellow dots. Next step will be allowing the client to make new orders, allowing me to move the ship freely (not just by a test order created when the server is started).</p>
             <p>Next up will be implementing the build orders for star system and shipyards, as well as order to build starbases, outposts and colonize planets.</p>

@@ -23,10 +23,33 @@
 
                 <br/><br/>
 
-                <h3>Next Release</h3>
-                <p>
-                    The next release will be the 0.4.6 release which will include some bugfixes and improvements from the alpha test, but mostly focus on TrekwarOnline which is a separate project that provides all the online services (user registration, authentication, server listings, etc..) for the game.
-                </p>
+                <div id="milestone-header"></div>
+                <br/>
+                <div id="milestone-list"><h3>Remaining issues in milestone:</h3></div>
+                <br/>
+                <p><a href="https://waffle.io/erlendaakre/trekwar" class="btn btn-primary btn-large">View scrum board</a></p>
+
+                <script>
+                    var milestoneNumber = 1; //https://api.github.com/repos/erlendaakre/trekwar/milestones
+                    var urlToGetMilestoneInfo = "https://api.github.com/repos/erlendaakre/trekwar/milestones/" + milestoneNumber;
+                    var urlToGetIssuesLeftInMilestone = "https://api.github.com/repos/erlendaakre/trekwar/issues?state=open&milestone=" + milestoneNumber;
+
+                    $(document).ready(function () {
+                        $.getJSON(urlToGetMilestoneInfo, function (milestone) {
+                            $("#milestone-header")
+                                    .append("<h3>Current milestone: " + milestone.title + "</h3>")
+                                    .append("Issues: " + milestone.open_issues + " open, (" + milestone.closed_issues + " closed)<br/>")
+                                    .append(milestone.description + "<br?/>");
+                        });
+
+                        $.getJSON(urlToGetIssuesLeftInMilestone, function (allIssues) {
+                            $.each(allIssues, function (i, issue) {
+                                $("#milestone-list")
+                                        .append("" + issue.number + " - " + issue.title + "  (<a href=\"" + issue.html_url + "\">details</a>)<br/>");
+                            });
+                        });
+                    });
+                </script>
 
             </div>
 

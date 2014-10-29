@@ -16,7 +16,7 @@
             <p><b>Q: When will the game be ready?</b><br />
                 A: Please see the <g:link url="development">Development</g:link> page for the latest estimates
             </p><p><b>Q: Can I sign up for alpha/beta testing?</b><br />
-            A: Check the <g:link url="/">front page</g:link> to see if testers are currently accepted
+            A: Check the <g:link url="${grailsApplication.config.grails.serverURL}/">front page</g:link> to see if testers are currently accepted
         </p>
             <p><b>Q: Which era is the game set in?</b><br />
                 A: After VOY/DS9, however early in the game you will be able to use older ship hulls (miranda class, early Klingon/Romulan ships, etc..)
@@ -117,7 +117,7 @@
             <p><b>Q: Can anyone run a server?</b><br />
                 A: Yes, you can download a server and run it on any computer, either for a few number of friends or a larger public server. I'm currently looking into the details of having public servers register with a central game server and/or having a single Trekwar.org user that you can use to play on ANY public running server.
             </p>
-            <p>If you have any questions not covered in this FAQ, please <g:link url="contact">contact</g:link> me or ask it on <a href="http://www.formspring.me/erlendaakre">Formspring.me</a>
+            <p>If you have any questions not covered in this FAQ, please <g:link url="contact">contact</g:link> me.
             </p>
 
         </div>

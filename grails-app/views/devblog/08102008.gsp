@@ -14,7 +14,7 @@
 
             <h3>October 08 2008</h3>
             <p>I've decided to implement a ship designing feature to the game. Instead of a faction just having a set number of possible starships, each faction will have 4-7 hulls that you can fit yourself with weapons/shields/engines/power/etc. from what you've researched.</p>
-            <p><a href="/images/devblog/gui_research_sketch.png"><img src="/images//devblog/gui_research_sketch_thumb.png" /></a></p>
+            <p><g:link url="${assetPath(src: 'devblog/gui_research_sketch.png')}"><asset:image src="/devblog/gui_research_sketch_thumb.png" /></g:link></p>
             <br />
             <p>A nasty memory leak in the game client was also fixed, and I'm currently redesigning / pimping the user interface. The new client now looks more like a game, and less like a Java application, and I'll be posting some screenshots on this page this November.</p>
 

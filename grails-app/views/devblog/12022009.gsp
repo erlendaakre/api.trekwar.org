@@ -18,7 +18,7 @@
             <p>All starship hulls has a default deuterium tank, but additional tanks can be added for greater range</p>
             <p>Ships can also be equipped with bussard collectors which lets them harvest the gas directly... Ships can run out of gas and become stranded, but you will be able to transport deuterium to them if that happens.</p>
             <p>Ships/fleets automatically refill deuterium when in a friendly star system</p>
-            <p><img src="/images/devblog/trekwar_deuterium.png" /></p>
+            <p><asset:image src="/devblog/trekwar_deuterium.png" /></p>
             <p>Image above shows users deuterium on the menu bar, and a selected fleet with a fuel indicator</p>
 
 

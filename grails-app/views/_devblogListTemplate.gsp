@@ -8,7 +8,7 @@
         <p><g:link controller="devblog" action="view" params="[post: '07032010']">07.03.2010</g:link>&nbsp;&nbsp;Cargo system implemented</p>
         <p><g:link controller="devblog" action="view" params="[post: '18022010']">18.02.2010</g:link>&nbsp;&nbsp;Sensor system preview</p>
         <p><g:link controller="devblog" action="view" params="[post: '16122009']">16.12.2009</g:link>&nbsp;&nbsp;Status update, systems added</p>
-        <p><g:link controller="devblog" action="view" params="[post: '01112009']">01.01.2009</g:link>&nbsp;&nbsp;New fleet box GUI component done</p>
+        <p><g:link controller="devblog" action="view" params="[post: '01112009']">01.11.2009</g:link>&nbsp;&nbsp;New fleet box GUI component done</p>
         <p><g:link controller="devblog" action="view" params="[post: '22102009']">22.10.2009</g:link>&nbsp;&nbsp;Colonization ready</p>
         <p><g:link controller="devblog" action="view" params="[post: '22062009']">22.06.2009</g:link>&nbsp;&nbsp;Minimap ready, possible to build ships</p>
         <p><g:link controller="devblog" action="view" params="[post: '11062009']">11.06.2009</g:link>&nbsp;&nbsp;Statistics and poll results</p>

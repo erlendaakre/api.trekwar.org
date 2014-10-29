@@ -35,7 +35,7 @@
 
         <div class="span3">
             <h2>Bug Report</h2>
-            <p>If you come across any bugs while testing the game please <g:link url="contact">e-mail me</g:link>. <b>But remember</b> to check out the list of open bugs (below) first</p>
+            <p>If you come across any bugs while testing the game please <g:link url="contact">contact me</g:link>. <b>But remember</b> to check out the list of open bugs (below) first</p>
         </div>
 
         <g:render template="/bugListTemplate"></g:render>

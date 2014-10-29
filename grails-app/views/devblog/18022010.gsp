@@ -19,15 +19,15 @@
             <p>Pink tiles represents small anomalies (asteroid fields, nebula, etc..) and has a sensor cost of 40. Red tiles have heavy interference (black holes, neutron stars, pulsars, and "subspace jamming devices") and have a sensor cost of 70.</p>
             <br/>
             <p>Below is a screenshot with no heavy interference very close to the sensor, this gives a pretty good overview of the nearby area</p>
-            <img src="/images/devblog/sensor1.jpg" />
+            <asset:image src="/devblog/sensor1.jpg" />
 
             <br/><br/>
             <p>This placement however creates a sensor blind spot below and in the lower right corner</p>
-            <img src="/images/devblog/sensor2.jpg" />
+            <asset:image src="/devblog/sensor2.jpg" />
 
             <br/><br/>
             <p>Big blind spots in sensor coverage may allow your enemies to mount surprise attacks your systems if you're not careful</p>
-            <img src="/images/devblog/sensor3.jpg" />
+            <asset:image src="/devblog/sensor3.jpg" />
         </div>
 
     </div>
