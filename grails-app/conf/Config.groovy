@@ -116,7 +116,7 @@ grails {
         host = "smtp.gmail.com"
         port = 465
         username = "trekwaronline@gmail.com"
-        password = "dZknJ5TWRcetWfRD4pndIVay0" // TODO: update before deploy
+        password = "______" // TODO: update before deploy
         props = ["mail.smtp.auth":"true",
                  "mail.smtp.socketFactory.port":"465",
                  "mail.smtp.socketFactory.class":"javax.net.ssl.SSLSocketFactory",
