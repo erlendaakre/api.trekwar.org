@@ -26,6 +26,23 @@ class RegistrationController {
         render "implement me!"
     }
 
+    /**
+     * Checks if a username is available (not already registered)
+     * requires params.username to be set
+     *
+     * @return true if username is available, false if already taken
+     */
+    def checkUsernameAvailable() {
+        if(params.username == null) {
+            render(contentType: "text/json") { [false]}
+        }
+        else {
+            render(contentType: "text/json") {
+                [userRegistrationService.isUsernameAvailable(params.username)]
+            }
+        }
+    }
+
     def doRegister() {
         def newUser = new User(params)
 

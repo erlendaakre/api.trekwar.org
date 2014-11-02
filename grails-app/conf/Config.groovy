@@ -6,6 +6,7 @@
 //                             "classpath:${appName}-config.groovy",
 //                             "file:${userHome}/.grails/${appName}-config.properties",
 //                             "file:${userHome}/.grails/${appName}-config.groovy"]
+grails.config.locations = ["classpath:secret-config.properties"]
 
 // if (System.properties["${appName}.config.location"]) {
 //    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
@@ -83,7 +84,7 @@ grails.hibernate.osiv.readonly = false
 environments {
     development {
         grails.logging.jul.usebridge = true
-        grails.serverURL = "http://localhost:8080/TrekwarOnline"
+        grails.serverURL = "http://localhost:8080"
     }
     production {
         grails.logging.jul.usebridge = false
@@ -115,8 +116,6 @@ grails {
     mail {
         host = "smtp.gmail.com"
         port = 465
-        username = "trekwaronline@gmail.com"
-        password = "" 
         props = ["mail.smtp.auth":"true",
                  "mail.smtp.socketFactory.port":"465",
                  "mail.smtp.socketFactory.class":"javax.net.ssl.SSLSocketFactory",

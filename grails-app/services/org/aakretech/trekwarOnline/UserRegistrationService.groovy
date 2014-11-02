@@ -4,7 +4,8 @@ import java.security.SecureRandom
 import grails.plugin.mail.MailService
 
 class UserRegistrationService {
-    MailService mailService
+    def MailService mailService
+    def grailsApplication
 
     private static SecureRandom prng = new SecureRandom()
 
@@ -22,7 +23,6 @@ class UserRegistrationService {
                 verification.code = generateCode(40)
                 verification.codeGeneratedDate = now
                 println("trying to send email to " + user.email)
-
 
                 mailService.sendMail {
                     to user.email
@@ -58,6 +58,10 @@ class UserRegistrationService {
             return true
         }
         return false
+    }
+
+    def boolean isUsernameAvailable(String username) {
+        return (User.findByUsername(username) == null)
     }
 
 

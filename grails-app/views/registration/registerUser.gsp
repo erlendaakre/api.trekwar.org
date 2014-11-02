@@ -3,6 +3,40 @@
 <head>
     <meta name="layout" content="main"/>
     <title></title>
+    <script>
+        $(document).ready(function(event){
+            $("#username").bind("change paste keyup", function(){
+                $.getJSON("/api/checkUsernameAvailable?username=" + this.value, function (data) {
+                    if(data[0]) {
+                        $("#usernameAvailableField").html("Username is available");
+                    }
+                    else {
+                        $("#usernameAvailableField").html("That username is already in use");
+                    }
+
+                });
+            });
+
+            var validatePassword = function() {
+                if($("#password").val() !==  $("#confirmPassword").val()) {
+                    $("#passwordValidationField").html("Passwords do not match");
+                }
+                else {
+                    if($("#password").val().length < 5) {
+                        $("#passwordValidationField").html("Your selected password is too short, it must be between 5 and 4096 characters long");
+                    }
+                    else {
+                        $("#passwordValidationField").html("");
+                    }
+                }
+            }
+
+            $("#password").bind("change paste keyup", function() { validatePassword(); });
+            $("#confirmPassword").bind("change paste keyup", function() { validatePassword(); });
+
+        });
+    </script>
+
 </head>
 
 <body>
@@ -25,15 +59,16 @@
 
     <g:form>
         <div class="row">
-            <div class="span4">
+            <div class="span6">
                 <h2>Required</h2>
 
                 <div class='fieldcontain required'>
-                    <g:field type="text" name="username" id="username" required="true" minlength="5" maxlength="30" placeholder="Username"/>
+                    <g:field type="text" name="username" value="${user.username}" id="username" required="true" minlength="5" maxlength="30" placeholder="Username"/>
+                    <div class="span3" style="float: right" id="usernameAvailableField"></div>
                 </div>
 
                 <div class='fieldcontain required'>
-                    <g:field type="email" name="email" required="true" value="${emailverification}" placeholder="E-mail address"/>
+                    <g:field type="email" name="email" required="true" value="${user.email}" placeholder="E-mail address"/>
                 </div>
 
                 <div class='fieldcontain required'>
@@ -42,35 +77,17 @@
 
                 <div class='fieldcontain required'>
                     <g:field type="password" name="confirmPassword" id="confirmPassword" required="true" placeholder="Confirm password"/>
-                </div>
-
-            </div>
-
-
-            <div class="span4">
-                <h2>Optional</h2>
-                <div class='fieldcontain'>
-                    <g:field type="text" name="firstname" id="firstname" value="${firstname}" placeholder="First name"/>
-                </div>
-
-                <div class='fieldcontain'>
-                    <g:field type="text" name="lastname" id="lastname" value="${lastname}" placeholder="Last name"/>
-                </div>
-
-                <div class='fieldcontain'>
-                    <g:countrySelect name="country" value="${country}"
-                                     noSelection="['': '-Choose your country-']"/>
+                    <div class="span3" style="float: right" id="passwordValidationField"></div>
                 </div>
 
                 <div class="span3">
                     <g:actionSubmit value="Register user" controller="registration" action="doRegister" class="btn btn-primary btn-large" style="float: right; margin-top: 10px"/>
                 </div>
-            </div>
 
+            </div>
 
         </div>
     </g:form>
-
 
 </body>
 </html>
