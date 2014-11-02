@@ -53,7 +53,7 @@ class UserRegistrationService {
         def verification = UserVerification.findByCode(code)
         if(verification != null) {
             verification.user.emailVerifiedDate = new Date()
-            println("======== Set email verified date for " + verification.user.firstname)
+            println("======== Set email verified date for " + verification.user.username)
             verification.delete()
             return true
         }

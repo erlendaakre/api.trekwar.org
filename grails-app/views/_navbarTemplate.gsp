@@ -6,7 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand">Trekwar.org</a>
+            <a class="brand" href="${grailsApplication.config.grails.serverURL}">Trekwar.org</a>
 
             <div class="nav-collapse">
                 <ul class="nav">

@@ -10,17 +10,16 @@
 <div class="container">
 
     <div class="row">
-        <div class="span8">
+        <div class="span12">
             <g:if test="${error == true}">
                 <h2>Validation error</h2>
                 <br/>
-                <p>The provided code was not valid!</p>
-
+                <p>The provided code was not valid!</p><br/>
 
                 <form>
                     Re-enter code: <g:field type="text" name="code" id="code" required="true" class="span6"/><br/>
                     <br/>
-                    <g:actionSubmit value="Validate account" controller="registration" action="validate"/>
+                    <g:actionSubmit value="Validate account" controller="registration" action="validate" class="btn btn-primary btn-large" style="margin-top: 10px"/>
                 </form>
             </g:if>
             <g:else>

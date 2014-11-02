@@ -1,7 +1,11 @@
 grails.config.locations = ["classpath:secret-config.properties"]
-// secret-config.properties contents:
-//grails.mail.username = x
-//grails.mail.password = x
+// secret-config.properties contents
+// =================================
+// grails.mail.username = x
+// grails.mail.password = x
+// grails.adminuser.username = admin
+// grails.adminuser.password = x
+// grails.adminuser.email = x
 
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 

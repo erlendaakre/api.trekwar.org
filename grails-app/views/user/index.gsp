@@ -9,7 +9,7 @@
 
 <div class="container">
     <h1>TrekwarOnline</h1>
-    Welcome ${session.user.firstname}
+    Welcome ${session.user.username}
     <br/>
     <br/>
     DEBUG: userID=${session.user.id}, username=${session.user.username}, email_verified=${session.user.emailVerifiedDate}
