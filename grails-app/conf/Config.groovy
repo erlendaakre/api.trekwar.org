@@ -3,7 +3,7 @@ grails.config.locations = ["classpath:secret-config.properties"]
 // =================================
 // grails.mail.username = x
 // grails.mail.password = x
-// grails.adminuser.username = admin
+// grails.adminuser.username = x
 // grails.adminuser.password = x
 // grails.adminuser.email = x
 

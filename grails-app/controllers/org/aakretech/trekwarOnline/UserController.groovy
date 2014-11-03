@@ -8,7 +8,8 @@ class UserController {
 
     def login() {
         if(params.username != null && params.password != null) {
-            def user = User.findByUsernameAndPassword(params.username, UserRegistrationService.hashPasswordWithSalt(params.username, params.password))
+            def userSalt = User.findByUsername(params.username).salt
+            def user = User.findByUsernameAndPassword(params.username, UserRegistrationService.hashPasswordWithSalt(params.password, userSalt))
             if(user != null) {
                 session.user = user
                 redirect(action: "index")

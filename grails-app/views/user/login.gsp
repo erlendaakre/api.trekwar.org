@@ -1,6 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <head>
     <meta name="layout" content="main"/>
+    <asset:javascript src="password.js"/>
+    <asset:javascript src="sha512.js"/>
 </head>
 <body>
 

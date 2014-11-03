@@ -3,15 +3,20 @@
 <head>
     <meta name="layout" content="main"/>
     <title></title>
+    <asset:javascript src="password.js"/>
+    <asset:javascript src="sha512.js"/>
+
     <script>
         $(document).ready(function(event){
             $("#username").bind("change paste keyup", function(){
                 $.getJSON("/api/checkUsernameAvailable?username=" + this.value, function (data) {
                     if(data[0]) {
                         $("#usernameAvailableField").html("Username is available");
+                        $("#registerUserButton").removeAttr('disabled');
                     }
                     else {
                         $("#usernameAvailableField").html("That username is already in use");
+                        $("#registerUserButton").attr('disabled','disabled');
                     }
 
                 });
@@ -20,6 +25,7 @@
             var validatePassword = function() {
                 if($("#password").val() !==  $("#confirmPassword").val()) {
                     $("#passwordValidationField").html("Passwords do not match");
+                    $("#registerUserButton").attr('disabled','disabled');
                 }
                 else {
                     if($("#password").val().length < 5) {
@@ -27,13 +33,19 @@
                     }
                     else {
                         $("#passwordValidationField").html("");
+                        $("#registerUserButton").removeAttr('disabled');
                     }
                 }
             }
-
             $("#password").bind("change paste keyup", function() { validatePassword(); });
             $("#confirmPassword").bind("change paste keyup", function() { validatePassword(); });
 
+            $("#registerUserButton").bind("click", function(event) {
+                $("#passwordValidationField").html("Hashing password, please wait...");
+                var hash = hashPassword($("#username").val(), $("#password").val());
+                $("#password").val(hash);
+                $("#confirmPassword").val(hash);
+            });
         });
     </script>
 
@@ -81,7 +93,7 @@
                 </div>
 
                 <div class="span3">
-                    <g:actionSubmit value="Register user" controller="registration" action="doRegister" class="btn btn-primary btn-large" style="float: right; margin-top: 10px"/>
+                    <g:actionSubmit id="registerUserButton" value="Register user" controller="registration" action="doRegister" class="btn btn-primary btn-large" style="float: right; margin-top: 10px"/>
                 </div>
 
             </div>

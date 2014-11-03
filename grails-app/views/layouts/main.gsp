@@ -24,23 +24,22 @@
 
     <asset:javascript src="libs/jquery-1.7.2.min.js"/>
     <asset:javascript src="script.js"/>
+    <asset:javascript src="application.js"/>
 
     <g:layoutHead/>
 
-    <script type="text/javascript">
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-2281207-4']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
+        ga('create', 'UA-2281207-4', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
     </script>
-
+    <!-- End Google Analytics -->
 </head>
 <body>
 
@@ -52,7 +51,5 @@
     <p>Star Trek© Star Trek: The Next Generation© Star Trek: Deep Space Nine©Star Trek: Voyager© Star Trek Enterprise© and all associated marks and characters are registered trademarks of CBS/Paramount Television. All rights reserved. The Trekwar use of the "Star Trek" universe is a non-profit fan production and is not meant to be an infringement on CBS/Paramount Television property rights to "Star Trek."</p>
 </footer>
 </div>
-
-<g:javascript library="application"/>
 </body>
 </html>
