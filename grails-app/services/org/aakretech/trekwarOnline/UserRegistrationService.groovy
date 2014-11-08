@@ -17,13 +17,13 @@ class UserRegistrationService {
         if(user.validate()) {
             def now = new Date()
             user.accountRegistrationDate = now
-            user.salt = generateCode(48)
+            user.salt = generateCode(128)
             user.password = hashPasswordWithSalt(user.password, user.salt)
 
             if(user.save(flush:  true)) {
                 UserVerification verification = new UserVerification()
                 verification.user = user
-                verification.code = generateCode(40)
+                verification.code = generateCode(96)
                 verification.codeGeneratedDate = now
                 println("trying to send email to " + user.email) //TODO: delete
 
@@ -41,8 +41,6 @@ class UserRegistrationService {
                             "<br/><br/>" +
                             "<a href=\"http://www.trekwar.org/registration/validate?code=" + verification.code + "\">Click here to verify account</a>"
                 }
-
-                println("User verification code made: " + verification.code)  //TODO: delete
                 return verification.save(flush: true)
             }
             else {

@@ -22,7 +22,7 @@
     <asset:stylesheet href="bootstrap.css"/>
     <asset:stylesheet href="dark.css" id="darkLightCSSLink"/>
 
-    <asset:javascript src="libs/jquery-1.7.2.min.js"/>
+    <asset:javascript src="libs/jquery-2.1.1.min.js"/>
     <asset:javascript src="script.js"/>
     <asset:javascript src="application.js"/>
 
