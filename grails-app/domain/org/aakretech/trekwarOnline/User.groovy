@@ -15,7 +15,7 @@ class User {
         email(email: true, blank: false, unique: true)
         password(size:  5..4096, blank: false)
 
-        salt(size: 24..64, nullable: true)
+        salt(size: 96..512, nullable: true)
 
         accountRegistrationDate(nullable: true)
         emailVerifiedDate(nullable: true)

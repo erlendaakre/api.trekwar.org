@@ -8,7 +8,7 @@ class RegistrationController {
     }
 
     def validate() {
-        if(params.code != null && params.code.length() == 40) {
+        if(params.code != null && params.code.length() == 96) {
             def boolean validated = userRegistrationService.validateUser(params.code)
             if(validated) {
                 render(view: "validateUser", model: [error:false])

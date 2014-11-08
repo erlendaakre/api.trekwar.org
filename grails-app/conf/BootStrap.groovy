@@ -12,7 +12,7 @@ class BootStrap {
                      password:  grailsApplication.config.grails.adminuser.password,
                      email:  grailsApplication.config.grails.adminuser.email,
 
-                     salt: userRegistrationService.generateCode(48),
+                     salt: userRegistrationService.generateCode(128),
 
                      emailVerifiedDate: new Date(),
                      accountRegistrationDate: new Date())

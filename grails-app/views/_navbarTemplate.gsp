@@ -15,7 +15,6 @@
                     <li class="${nav_screenshots}"><g:link url="${grailsApplication.config.grails.serverURL}/screenshots">Screenshots</g:link></li>
                     <li class="${nav_download}"><g:link url="${grailsApplication.config.grails.serverURL}/download">Download</g:link></li>
                     <li class="${nav_support}"><g:link url="${grailsApplication.config.grails.serverURL}/support">Support</g:link></li>
-                    <li class="${nav_wiki}"><a href="#">Wiki</a></li>
                     <li class="${nav_contact}"><g:link url="${grailsApplication.config.grails.serverURL}/contact">Contact</g:link></li>
                     <li class="${nav_online}"><g:link controller="user" action="index">Trekwar Online
                     <g:if test="${session.user}">(${session.user.username})</g:if></g:link></li>

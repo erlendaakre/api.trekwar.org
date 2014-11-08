@@ -28,9 +28,8 @@
 
         <div class="span3">
             <h2>Community</h2>
-
-            <p>Unfortunately the website that hosted the forum (star-trek-games.com) has ceased to be, so all the forum posts relating to the game has disappeared.</p>
-            <p>A new forum or community system might take it's place later on.</p>
+            <p>Unfortunately the website that hosted the forum (star-trek-games.com) has ceased to be, so all the old forum posts relating to the game has disappeared.</p>
+            <p><a href="http://trekwar.proboards.com/" class="btn btn-primary btn-large">Visit new forum</a></p>
         </div>
 
         <div class="span3">

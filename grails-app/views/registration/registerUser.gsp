@@ -5,6 +5,7 @@
     <title></title>
     <asset:javascript src="password.js"/>
     <asset:javascript src="sha512.js"/>
+    <asset:javascript src="libs/jquery.complexify.min.js"/>
 
     <script>
         $(document).ready(function(event){
@@ -39,6 +40,14 @@
             }
             $("#password").bind("change paste keyup", function() { validatePassword(); });
             $("#confirmPassword").bind("change paste keyup", function() { validatePassword(); });
+
+
+            $(function () {
+                $("#password").complexify({}, function (valid, complexity) {
+                    $('#complexity').html(Math.round(complexity) + '%');
+                        $('#progress').css({'width':complexity + '%'});
+                });
+           });
 
             $("#registerUserButton").bind("click", function(event) {
                 $("#passwordValidationField").html("Hashing password, please wait...");
@@ -85,11 +94,15 @@
 
                 <div class='fieldcontain required'>
                     <g:field type="password" name="password" id="password" required="true" placeholder="Password"/>
+                    <div class="span3" style="float: right" id="passwordValidationField"></div>
                 </div>
 
                 <div class='fieldcontain required'>
                     <g:field type="password" name="confirmPassword" id="confirmPassword" required="true" placeholder="Confirm password"/>
-                    <div class="span3" style="float: right" id="passwordValidationField"></div>
+                    <div class="span3" style="float: right" >
+                    Password complexity: <div id="progress" style="background-color: forestgreen"><div id="complexity" style="padding-left: 2px"></div></div>
+                </div>
+
                 </div>
 
                 <div class="span3">
