@@ -8,7 +8,7 @@ class RegistrationController {
     }
 
     def validate() {
-        if(params.code != null && params.code.length() == 96) {
+        if(params.code != null) {
             def boolean validated = userRegistrationService.validateUser(params.code)
             if(validated) {
                 render(view: "validateUser", model: [error:false])
@@ -23,7 +23,36 @@ class RegistrationController {
     }
 
     def passwordReset() {
-        render "implement me!"
+        if(params.password != null && params.code != null) {
+            if(params.password.length() != 128) {
+                render "password has illegal format, must be hashed by clientside SHA512 javascript"
+            }
+            else {
+                def pwReset = userRegistrationService.passwordResetVerifyCode(params.code);
+                if(pwReset != null) {
+                    userRegistrationService.passwordResetChangePassword(pwReset, params.password);
+                }
+            }
+        }
+        else if(params.code != null) {
+            def boolean passwordChanged = userRegistrationService.validateUser(params.code)
+            def pwReset = userRegistrationService.passwordResetVerifyCode(params.code);
+            if(pwReset) {
+                println("prRESET = " + pwReset.code)
+                println("prRESET = " + pwReset.user.email)
+                render(view: "passwordResetForm", model: [error:false, pwReset: pwReset])
+            }
+            else {
+                render(view: "passwordResetForm", model: [error:true, code:params.code])
+            }
+        }
+        else if(params.email != null) {
+            userRegistrationService.passwordResetSendCode(params.email)
+            render(view: "passwordReset", model: [newRequest:false])
+        }
+        else {
+            render(view: "passwordReset", model: [newRequest:true])
+        }
     }
 
     /**

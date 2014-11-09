@@ -69,10 +69,10 @@
     <h1>User Registration</h1>
 
     <g:hasErrors bean="${user}">
-        <br/>
-
-        <div id="form-errorlist">
-            <g:renderErrors bean="${user}"/>
+        <div class="alert alert-danger" role="alert">
+            <div id="form-errorlist">
+                <g:renderErrors bean="${user}"/>
+            </div>
         </div>
     </g:hasErrors>
 
@@ -100,13 +100,12 @@
                 <div class='fieldcontain required'>
                     <g:field type="password" name="confirmPassword" id="confirmPassword" required="true" placeholder="Confirm password"/>
                     <div class="span3" style="float: right" >
-                    Password complexity: <div id="progress" style="background-color: forestgreen"><div id="complexity" style="padding-left: 2px"></div></div>
-                </div>
-
+                        Password complexity: <div id="progress" style="background-color: forestgreen"><div id="complexity" style="padding-left: 2px"></div></div>
+                    </div>
                 </div>
 
                 <div class="span3">
-                    <g:actionSubmit id="registerUserButton" value="Register user" controller="registration" action="doRegister" class="btn btn-primary btn-large" style="float: right; margin-top: 10px"/>
+                    <g:actionSubmit disabled="disabled" id="registerUserButton" value="Register user" controller="registration" action="doRegister" class="btn btn-primary btn-large" style="float: right; margin-top: 10px"/>
                 </div>
 
             </div>

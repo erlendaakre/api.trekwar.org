@@ -1,4 +1,4 @@
-<!doctype html>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <meta name="layout" content="main"/>
@@ -14,7 +14,9 @@
             <g:if test="${error == true}">
                 <h2>Validation error</h2>
                 <br/>
-                <p>The provided code was not valid!</p><br/>
+                <div class="alert alert-danger" role="alert">
+                    <strong>Error!</strong> The provided code was not valid
+                </div>
 
                 <form>
                     Re-enter code: <g:field type="text" name="code" id="code" required="true" class="span6"/><br/>

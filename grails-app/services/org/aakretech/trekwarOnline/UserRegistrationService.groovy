@@ -25,23 +25,24 @@ class UserRegistrationService {
                 verification.user = user
                 verification.code = generateCode(96)
                 verification.codeGeneratedDate = now
-                println("trying to send email to " + user.email) //TODO: delete
 
-                mailService.sendMail {
-                    to user.email
-                    from "trekwaronline@gmail.com"
-                    subject "Trekwar Online account registration"
-                    html "<h2>Account Registration</h2>" +
-                            "Thank you for registering for a Trekwar Online account." +
-                            "<br/>Your username is: " +  user.username +
-                            "<br/>before you can log in and use your account you have to click the link below to verify your email address, or copy and paste the authorization code on " +
-                            "<a href=\"http://www.trekwar.org/registration/validate\">this page</a>" +
-                            "<br/><br/>" +
-                            "<b>Code: </b> " + verification.code +
-                            "<br/><br/>" +
-                            "<a href=\"http://www.trekwar.org/registration/validate?code=" + verification.code + "\">Click here to verify account</a>"
+                if(verification.save(flush: true, failOnError: true)) {
+                    println("trying to send email to " + user.email) //TODO: replace with logging
+                    mailService.sendMail {
+                        to user.email
+                        from "trekwaronline@gmail.com"
+                        subject "Trekwar Online account registration"
+                        html "<h2>Account Registration</h2>" +
+                                "Thank you for registering for a Trekwar Online account." +
+                                "<br/>Your username is: " + user.username +
+                                "<br/><br/>Before you can log in and use your account you have to click the link below to verify your email address, or copy and paste the authorization code on " +
+                                "<a href=\"http://www.trekwar.org/registration/validate\">this page</a>" +
+                                "<br/><br/>" +
+                                "<b>Code: </b> " + verification.code +
+                                "<br/><br/>" +
+                                "<a href=\"http://www.trekwar.org/registration/validate?code=" + verification.code + "\">Click here to verify account</a>"
+                    }
                 }
-                return verification.save(flush: true)
             }
             else {
                 return false
@@ -56,11 +57,57 @@ class UserRegistrationService {
         def verification = UserVerification.findByCode(code)
         if(verification != null) {
             verification.user.emailVerifiedDate = new Date()
-            println("======== Set email verified date for " + verification.user.username)
+            println("======== Set email verified date for " + verification.user.username) // TODO replace with logging
             verification.delete()
             return true
         }
         return false
+    }
+
+    def boolean passwordResetChangePassword(PasswordReset pwReset, String newPassword) {
+        if(pwReset != null && newPassword != null) {
+            pwReset.user.salt = generateCode(128)
+            pwReset.user.password = hashPasswordWithSalt(newPassword, pwReset.user.salt)
+            println("========Password successfully reset for " + pwReset.user.username) // TODO replace with logging
+            pwReset.delete();;
+            return true
+        }
+        return false
+    }
+
+    def PasswordReset passwordResetVerifyCode(String code) {
+        return PasswordReset.findByCode(code);
+    }
+
+    def boolean passwordResetSendCode(String email) {
+        def user = User.findByEmail(email);
+        if(user != null) {
+            def pwReset = new PasswordReset(
+                     user: user,
+                     code: generateCode(96),
+                     codeGeneratedDate: new Date()
+            )
+
+            if(pwReset.save(flush: true, failOnError: true)) {
+                println("trying to send email to " + user.email) //TODO: replace with logging
+                mailService.sendMail {
+                    to user.email
+                    from "trekwaronline@gmail.com"
+                    subject "Trekwar Online password reset"
+                    html "<h2>Password Reset</h2>" +
+                            "A password reset request has been made for this email address." +
+                            "<br/>Your username is: " + user.username +
+                            "<br/>To reset your password click the link below to verify your email address, or copy and paste the authorization code on " +
+                            "<a href=\"http://www.trekwar.org/registration/passwordReset?code=none\">this page</a>" +
+                            "<br/><br/>" +
+                            "<b>Code: </b> " + pwReset.code +
+                            "<br/><br/>" +
+                            "<a href=\"http://www.trekwar.org/registration/passwordReset?code=" + pwReset.code + "\">Click here to reset your password</a>"
+                }
+            }
+
+        }
+        return false;
     }
 
     def boolean isUsernameAvailable(String username) {
