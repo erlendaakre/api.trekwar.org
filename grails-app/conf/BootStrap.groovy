@@ -17,13 +17,12 @@ class BootStrap {
                      emailVerifiedDate: new Date(),
                      accountRegistrationDate: new Date())
 
-            def plainPassword = admin.password
             def clientPassword = userRegistrationService.clientSidePasswordHash(admin.username, admin.password)
 
             admin.password = userRegistrationService.hashPasswordWithSalt(clientPassword, admin.salt)
 
             admin.save(flush: true, failOnError: true)
-            println("Saved admin user with username " + admin.username + " and password " + clientPassword)
+            println("Admin account created with name " + admin.username + " and password as specified in secret-config.properties")
         }
     }
     def destroy = {
