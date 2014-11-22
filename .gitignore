@@ -1,3 +1,4 @@
 target/
+out/
 .idea/
 grails-app/conf/secret-config.properties
