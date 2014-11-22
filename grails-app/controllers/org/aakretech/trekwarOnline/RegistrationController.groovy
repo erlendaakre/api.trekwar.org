@@ -30,17 +30,23 @@ class RegistrationController {
             else {
                 def pwReset = userRegistrationService.passwordResetVerifyCode(params.code);
                 if(pwReset != null) {
-                    userRegistrationService.passwordResetChangePassword(pwReset, params.password);
+                    boolean saved = userRegistrationService.passwordResetChangePassword(pwReset, params.password);
+                    if(saved) {
+                        render(view: "passwordResetOK")
+                    }
+                    else {
+                        render("Failed to reset password. Your password reset code might just have expired, or the password got messed up. please contact me if this happens again")
+                    }
+                }
+                else {
+                    render(view: "passwordResetForm", model: [error:true, username: params.username, code:params.code])
                 }
             }
         }
         else if(params.code != null) {
-            def boolean passwordChanged = userRegistrationService.validateUser(params.code)
             def pwReset = userRegistrationService.passwordResetVerifyCode(params.code);
             if(pwReset) {
-                println("prRESET = " + pwReset.code)
-                println("prRESET = " + pwReset.user.email)
-                render(view: "passwordResetForm", model: [error:false, pwReset: pwReset])
+                render(view: "passwordResetForm", model: [error:false, username:pwReset.user.username, code:params.code])
             }
             else {
                 render(view: "passwordResetForm", model: [error:true, code:params.code])

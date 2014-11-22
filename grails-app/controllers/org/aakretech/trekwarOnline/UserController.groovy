@@ -8,15 +8,23 @@ class UserController {
 
     def login() {
         if(params.username != null && params.password != null) {
-            def userSalt = User.findByUsername(params.username).salt
-            def user = User.findByUsernameAndPassword(params.username, UserRegistrationService.hashPasswordWithSalt(params.password, userSalt))
-            if(user != null) {
-                session.user = user
-                redirect(action: "index")
+            if(!User.findByUsername(params.username)) {
+                flash.message = "Invalid username/password"
+                flash.type = "error"
+                render(view: "login")
             }
             else {
-                flash.message = "Invalid username/password"
-                render(view: "login")
+                def userSalt = User.findByUsername(params.username).salt
+                def user = User.findByUsernameAndPassword(params.username, UserRegistrationService.hashPasswordWithSalt(params.password, userSalt))
+                if(user != null) {
+                    session.user = user
+                    redirect(action: "index")
+                }
+                else {
+                    flash.message = "Invalid username/password"
+                    flash.type = "error"
+                    render(view: "login")
+                }
             }
         }
         else {
@@ -27,6 +35,7 @@ class UserController {
     def logout() {
         session.user = null
         flash.message = "You have been logged out of Trekwar Online"
+        flash.type = "success"
         render(view: "login")
     }
 

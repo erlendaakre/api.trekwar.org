@@ -2,7 +2,7 @@
     <h2>Latest news</h2>
     <table border="1" cellpadding="3">
         <tr  valign="top">
-            <td>28.10.2014</td><td>Website updated, latest development progress can be followed <a href="https://waffle.io/erlendaakre/trekwar">here</a> </td>
+            <td>22.11.2014</td><td>Website updated, latest development progress can be followed <a href="https://waffle.io/erlendaakre/trekwar">here</a> </td>
         </tr>
         <tr valign="top">
             <td>15.09.2012</td><td>Added <g:link url="/screenshots">screenshots</g:link> from the alpha version (0.4.5) of the game</td>
