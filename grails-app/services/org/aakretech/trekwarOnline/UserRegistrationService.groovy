@@ -66,10 +66,12 @@ class UserRegistrationService {
 
     def boolean passwordResetChangePassword(PasswordReset pwReset, String newPassword) {
         if(pwReset != null && newPassword != null) {
-            pwReset.user.salt = generateCode(128)
-            pwReset.user.password = hashPasswordWithSalt(newPassword, pwReset.user.salt)
-            println("========Password successfully reset for " + pwReset.user.username) // TODO replace with logging
-            pwReset.delete();;
+            User user = pwReset.getUser();
+            user.salt = generateCode(128)
+            user.password = hashPasswordWithSalt(newPassword, user.salt)
+            pwReset.delete()
+            user.save(flush:true)
+            println("========Password successfully reset for " + user.username) // TODO replace with logging
             return true
         }
         return false

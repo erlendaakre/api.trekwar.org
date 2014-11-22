@@ -40,10 +40,17 @@
             });
 
             $("#changePasswordButton").bind("click", function (event) {
-                $("#passwordValidationField").html("Hashing password, please wait...");
-                var hash = hashPassword($("#username").val(), $("#password").val());
-                $("#password").val(hash);
-                $("#confirmPassword").val(hash);
+                if(! $("#username").val() && $("#username").val().length < 1) {
+                    $("#passwordValidationField").html('<div class="alert alert-info" role="alert"><strong>Username needed!</strong><br/>The username field below does not contain a username, this field is filled automatically if you access this page by clicking the reset password link in your email.<br><br>The field has been unlocked, please enter your username (case sensitive!) and hit submit again.<br><br><strong>Note:</strong> if your username is not written <strong>exactly</strong> as it is registered, your new password will not work.<br><br>Note: entering another users username will only cause your new password to be invalid.</div>')
+                    $("#username").removeAttr('readonly');
+                    return false;
+                }
+                else {
+                    $("#passwordValidationField").html("Hashing password, please wait...");
+                    var hash = hashPassword($("#username").val(), $("#password").val());
+                    $("#password").val(hash);
+                    $("#confirmPassword").val(hash);
+                }
             });
 
         });
@@ -63,16 +70,20 @@
             <br/>
 
             <g:if test="${error == true}">
-                <div class="alert alert-danger" role="alert">
+                <div class="alert alert-danger" role="alert" id="errordiv">
                     <strong>Error!</strong> The provided code was not valid
                 </div>
+
+                <script>
+                    $('#errordiv').hide(0).fadeIn(500).delay(3000).fadeOut(2000);
+                </script>
             </g:if>
 
             <form>
 
                 <div class='fieldcontain required'>
                     <g:field class="span5" type="password" name="password" id="password" required="true"
-                             placeholder="Password"/>
+                             placeholder="New password"/>
                     <div class="span3" style="float: right" id="passwordValidationField"></div>
                 </div>
 
@@ -93,13 +104,13 @@
                 Confirmation code:
                 <div class='fieldcontain required'>
                     <g:field class="span10" type="text" name="code" id="code" required="true"
-                             placeholder="Confirmation code" value="${pwReset.code}"/>
+                             placeholder="Confirmation code" value="${code}"/>
                 </div>
 
                 Your username:
                 <div class='fieldcontain required'>
                     <g:field class="span5" readonly="readonly" type="text" name="username" id="username" required="true"
-                             placeholder="Username" value="${pwReset.user.username}"/>
+                             placeholder="Username" value="${username}"/>
                 </div>
 
             </form>

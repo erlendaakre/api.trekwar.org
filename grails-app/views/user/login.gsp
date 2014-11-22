@@ -17,9 +17,12 @@
 
     <div class="span5">
     <g:if test="${flash.message}">
-        <h3>Message:</h3>
-        <%-- <h3 style="color:red">Error:</h3> --%>
-        <div><b>${flash.message}</b></div>
+        <div class="alert alert-${flash.type}" role="alert" id="errordiv" id="errordiv" style="margin-top: 35px">
+            <strong>${flash.type}!</strong><br/>${flash.message}
+        </div>
+        <script>
+            $('#errordiv').hide(0).fadeIn(1500);
+        </script>
     </g:if>
     </div>
 
