@@ -68,6 +68,7 @@
                 </li><li>Netbeans is used for developing the server and client
                 </li><li>VisualVM is used to optimize memory efficiency and find bugs
                 </li><li><a href="https://github.com/erlendaakre/">Github</a> is used to manage the project source code and issue tracking
+                </li><li><a href="https://waffle.io/erlendaakre/trekwar">Waffle.io</a> is used as an agile board
                 </li></ul>
             </div>
         </div>

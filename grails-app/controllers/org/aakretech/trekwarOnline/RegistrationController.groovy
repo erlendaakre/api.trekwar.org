@@ -1,7 +1,10 @@
 package org.aakretech.trekwarOnline
 
+import com.megatome.grails.RecaptchaService
+
 class RegistrationController {
     def userRegistrationService
+    RecaptchaService recaptchaService
 
     def index() {
         render(view: "registerUser", model: [user: new User()])
@@ -85,11 +88,14 @@ class RegistrationController {
             newUser.errors.rejectValue("password", "Passwords do not match")
         }
 
-        //def captchaOK = recaptchaService.verifyAnswer(session, request.getRemoteAddr(), params)
-        def captchaOK = true
+        def recaptchaOK = true
+        if (!recaptchaService.verifyAnswer(session, request.getRemoteAddr(), params)) {
+            recaptchaOK = false
+            flash.message = "Invalid CAPTCHA"
+        }
 
-        if (!newUser.hasErrors() && newUser.validate() && captchaOK) {
-            //recaptchaService.cleanUp(session)
+        if (!newUser.hasErrors() && newUser.validate() && recaptchaOK) {
+            recaptchaService.cleanUp(session)
             boolean success = userRegistrationService.registerUser(newUser)
             if (!success) {
                 flash.message = "Unexpected error from user registration service :("

@@ -104,6 +104,10 @@
                     </div>
                 </div>
 
+                <recaptcha:ifEnabled>
+                    <recaptcha:recaptcha theme="dark"/>
+                </recaptcha:ifEnabled>
+
                 <div class="span3">
                     <g:actionSubmit disabled="disabled" id="registerUserButton" value="Register user" controller="registration" action="doRegister" class="btn btn-primary btn-large" style="float: right; margin-top: 10px"/>
                 </div>
