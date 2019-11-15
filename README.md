@@ -1,3 +1,5 @@
+:no_entry: Due to lack of time and interest this project has been abandoned. The Trekwar Server/Client is in a usable state but integration with `trekwarOnline` has not been completed.
+
 trekwarOnline
 =============
 This is a project containing the Trekwar.org website and all online services used by the game:
